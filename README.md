@@ -31,7 +31,10 @@ Important to differentiate two types of it:
 * Cairo 1: [cairo](https://github.com/starkware-libs/cairo)
 
 Former one is a bit more mature, with greater amount of docs/infrastructure and projects in it, 
-yet with peculiar syntax and becoming deprecated, whereas second is heavily improved, rewritten in Rust version.
+yet with peculiar syntax and becoming deprecated, whereas second is fundamentally improved, rewritten in Rust version.
+
+**NOTE:** Cairo is not limited to just smart contracts, it is a Turing Complete general-purpose language, which means, 
+you can write anything in it.
 
 You need to know about existence of the first one, but focus and use primarily Cairo 1.
 
@@ -59,11 +62,19 @@ If you don't want to sort out differences between them, just choose first, and y
 ### Learn Cairo 1:
 
 * [starknet-cairo-101](https://github.com/starknet-edu/starknet-cairo-101)
+* [deploying-contracts](https://docs.starknet.io/documentation/getting_started/deploying_contracts/)
+
+### Package manager:
+
+Being heavily-inspired by Rust, Cairo 1 also has similar package manager:
+
+* [scarb](https://docs.swmansion.com/scarb)
 
 ### Starknet Explorers:
 
 * [starkscan](https://starkscan.co/)
 * [voyager](https://voyager.online/)
+
 
 ## Research
 
